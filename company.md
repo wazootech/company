@@ -25,8 +25,8 @@ they command their own thoughts.
 
 ### Core Philosophies
 
-- **Documentation-Driven Development (DDD):** No implementation without
-  rigorous documentation first.
+- **Documentation-Driven Development (DDD):** No implementation without rigorous
+  documentation first.
 - **Itemized OS:** Breaking down silos.
 - **Autonomous Staffing:** Replacing traditional roles with codified AI skills.
 - **Agency:** User-controlled digital environments.
@@ -103,7 +103,7 @@ Every role does this at the start of every session:
    work.
 3. **Identify the highest-priority gap in your domain** — Act pro-actively.
 4. **Follow Documentation-Driven Development (DDD):** Always update or create
-   the relevant documentation/artifact *before* or *simultaneously* with code or
+   the relevant documentation/artifact _before_ or _simultaneously_ with code or
    design implementation.
 
 ### Deliverables

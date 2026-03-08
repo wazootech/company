@@ -6,10 +6,10 @@ designed for high-impact suite operators and autonomous companies.
 View the skills online at
 **[skills.sh/wazootech/company](https://skills.sh/wazootech/company)**.
 
-## Dotfiles for the Mind
+## Dotfiles for the mind
 
 We believe that professional identity shouldn't be trapped in a single LLM
-context window. This repository is our "Dotfiles for the Mind"—a
+context window. This repository is our "Dotfiles for the mind"—a
 version-controlled system of record for the expertise, protocols, and workflows
 that define our company.
 
@@ -20,7 +20,7 @@ eliminate human overhead and ensure that every agent joining the team—regardle
 of the platform—has the same "cultural" context and operational standards as
 their peers.
 
-## The Context Repository
+## The context repository
 
 We treat this repository as a
 **[Context Repository](https://www.letta.com/blog/context-repositories)** for
@@ -36,7 +36,7 @@ autonomous organization.
 To maintain this high bar, we audit this repository against the
 **[Skill Creator Best Practices](https://skills.sh/anthropics/skills/skill-creator)**.
 
-## AI Coding Agents
+## AI coding agents
 
 Install these skills to teach AI agents specific professional roles and
 operational protocols. The **Communications Specialist** is particularly useful

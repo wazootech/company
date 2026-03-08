@@ -69,7 +69,6 @@ A high-fidelity interface must:
 
 ## Tooling protocol
 
-
 - **Design Tokens:** Use standardized tokens for colors, typography, and spacing
   to ensure handoff integrity.
 - **Asset Management:** Organize all SVG, PNG, and JPEG assets in the `/images/`
