@@ -61,6 +61,8 @@ A sound technical architecture must:
 - Be modular and interoperable (the "Itemized" principle).
 - Allow for 100% data portability (user agency).
 - Support fast iteration without "Lock-in."
+- Follow **Documentation-Driven Development (DDD)**: Architectural decisions and
+  system mappings must be documented before execution.
 
 ## Output formats
 

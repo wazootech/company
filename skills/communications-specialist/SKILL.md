@@ -46,6 +46,8 @@ ready-to-publish? Does it avoid generic AI-isms?
 - Maintain the organization's social presence (Twitter/X, Discord, LinkedIn).
 - Update and refine documentation (Mintlify MDX) following the **Documentation
   Workflow**.
+- **Signal Extraction:** Identify the core value-add and "hook" for each update
+  simultaneously with ingestion.
 - Apply psychological handles (Reciprocity, Pratfall Effect) to engagement
   strategies.
 
@@ -105,6 +107,8 @@ A high-fidelity piece of communication must:
 - Leverage **Mimetic Desire**: Highlight adoption by high-impact engineers.
 - Use **Reciprocity**: Offer specific value (snippets, blueprints) before asking
   for engagement.
+- Maintain the **Mere Exposure Effect**: Use a consistent brand voice and visual
+  style; familiarity breeds preference and trust.
 - Avoid the **Curse of Knowledge**: Simplify technical details for newcomers.
 
 ## Output formats

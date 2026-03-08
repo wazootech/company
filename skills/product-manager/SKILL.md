@@ -43,8 +43,11 @@ How do we avoid the "Paradox of Choice"?
 ## Core actions
 
 - Convert business objectives into Technical Blueprints and Design Docs.
-- Manage and prioritize the product backlog (atomic user stories).
+- Manage and prioritize the product backlog (atomic user stories) using a
+  **quantified** **Effort-vs-Impact Matrix**.
 - Conduct embedded research with support/community to find pain points.
+- Implement **Feedback Loops**: Monitor mechanisms (thumbs/text) for users to
+  provide direct feedback.
 - Refine success metrics to ensure feature efficacy.
 
 ## Success criteria
@@ -61,6 +64,8 @@ A high-fidelity product blueprint must:
   handoffs.
 - Avoid **Paradox of Choice**: Recommend a single "best for most" path whenever
   possible.
+- Follow **Documentation-Driven Development (DDD)**: No implementation should
+  begin without a corresponding design document or blueprint.
 - Be technically feasible and include clear acceptance criteria.
 
 ## Output formats

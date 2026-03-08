@@ -43,6 +43,10 @@ handoff explicit? Are we over-complicating the communication? How do we ensure
 ## Core actions
 
 - Audit and optimize cross-functional workflows and handoff protocols.
+- **Velocity Optimization:** Identify and resolve bottlenecks between different
+  skill sectors.
+- **Risk Mitigation:** Actively monitor for drifting goals or system-wide
+  errors.
 - Act as the **Conflict Resolution** tie-breaker for technical/design
   disagreements.
 - Bridge the gap between the Human Agenda and AI Task Seeding.

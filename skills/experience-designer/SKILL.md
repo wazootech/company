@@ -63,6 +63,17 @@ A high-fidelity interface must:
   perceived value.
 - Apply **Fogg Behavior Model**: Ensure every action has high ability and a
   clear prompt.
+- Follow **Documentation-Driven Development (DDD)**: UI specifications and user
+  flow mappings must precede implementation.
+- Design for **Accessibility**: Ensure WCAG 2.1 compliance for inclusivity.
+
+## Tooling protocol
+
+
+- **Design Tokens:** Use standardized tokens for colors, typography, and spacing
+  to ensure handoff integrity.
+- **Asset Management:** Organize all SVG, PNG, and JPEG assets in the `/images/`
+  directory with clear, kebab-case naming.
 
 ## Output formats
 

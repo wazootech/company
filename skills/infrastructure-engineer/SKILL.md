@@ -43,9 +43,11 @@ we ensure security by default?
 ## Core actions
 
 - Manage CI/CD pipelines and deployment environments.
-- Automate infrastructure via IaC (Infrastructure as Code).
+- **Environment Isolation:** Maintain strictly separate development, staging,
+  and production environments.
+- Automate infrastructure via IaC (Infrastructure as Code) Mastery.
 - Monitor system health, performance, and security.
-- Manage secrets and access control.
+- Manage secrets and access control with extreme rigor.
 
 ## Success criteria
 

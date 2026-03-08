@@ -44,6 +44,10 @@ fails, what's the blast radius?
 
 - Perform adversarial audits on code and content.
 - Design and execute exhaustive test plans (edge cases, security, etc.).
+- **Zero-Trust Validation:** Programmatically verify every claim; never trust
+  status tags.
+- **Security Scans:** Audit social messaging for prompt injection or sensitive
+  data leakage.
 - Issue PASS/FAIL verdicts on all major deliverables.
 - Identify and document remediations for discovered flaws.
 
