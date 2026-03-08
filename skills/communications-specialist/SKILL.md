@@ -80,6 +80,26 @@ ready-to-publish? Does it avoid generic AI-isms?
   (e.g., "1. Introduction") to reduce maintenance overhead unless there is a
   non-arbitrary, clear progression being communicated.
 
+### Active vs. passive voice
+
+Favor active voice for clarity and brevity. Passive voice obfuscates ideas and
+requires more mental processing.
+
+- **The Formula:**
+  - **Active:** Actor + Verb + Target (e.g., "The Mungifier parsed the flags.")
+  - **Passive:** Target + Verb + Actor (e.g., "The flags were parsed by the
+    Mungifier.")
+- **Spotting Passive Voice:** Look for a form of _be_ (is, are, was, were)
+  followed by a past participle (interpreted, generated). Note that irregular
+  verbs like "known" or "frozen" also count.
+- **The Actor:** Always identify who is doing what. Passive voice often omits
+  the actor (e.g., "Performance was measured"), forcing the reader to guess.
+- **Imperatives:** Commands in lists (e.g., "Open the file") are **active**. The
+  implied actor is "you."
+- **Complex Sentences:** Audit every verb. Avoid mixed-voice sentences (e.g.,
+  "Python interprets code, but code is compiled by C++"). Convert both to
+  active.
+
 ### Code examples
 
 - Keep examples simple and directly applicable.
