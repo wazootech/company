@@ -21,10 +21,16 @@ the gap between technical blueprints and visual excellence.
   inclusivity.
 - **Micro-animations:** Incorporate subtle transitions and interactive elements
   to enhance engagement.
-- **Hick's Law:** Minimize choice complexity to reduce decision time.
-- **Fogg Behavior Model:** Ensure every desired action has high ability (is
-  easy) and a clear prompt.
-- **Zeigarnik Effect:** Use loops and progress indicators to drive completion.
+- **Hick's Law:** Minimize choice complexity to reduce decision time. The more
+  options a user has, the longer it takes to make a decision. Aim for "singular
+  paths."
+- **Fogg Behavior Model:** Ensure every desired action has high ability (it is
+  triavially easy) and a clear prompt. Behavior happens when Motivation,
+  Ability, and a Prompt converge.
+- **Zeigarnik Effect:** Use progress indicators and "open loops" to drive
+  completion. People remember uncompleted tasks better than completed ones.
+- **IKEA Effect:** Leverage ownership by letting users customize or configure
+  small parts of the interface early. Their effort increases perceived value.
 
 </design_standards>
 

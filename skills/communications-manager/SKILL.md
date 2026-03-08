@@ -25,10 +25,12 @@ polished, high-fidelity copy for both documentation (MDX) and socials (Socials).
   sentence-case headings and avoid marketing filler.
 - **Social Copy:** Platform-ready posts for Twitter/X, LinkedIn, and Discord,
   focusing on developer "superpowers."
-  - **Mimetic Desire:** Highlight that other high-impact engineers are using
-    these tools to create social contagion.
-  - **Reciprocity:** Offer value (free tools, snippets, blueprints) before asking
-    for clicks.
+  - **Mimetic Desire:** Highlight that other high-impact engineers are adopting
+    these patterns to create social contagion.
+  - **Reciprocity:** Offer specific value (snippets, blueprints, CLI tools)
+    first to create a psychological "debt" before asking for engagement.
+  - **Mere Exposure Effect:** Maintain a consistent brand voice and visual
+    style; familiarity breeds preference and trust.
 
 </output_formats>
 
@@ -38,8 +40,10 @@ polished, high-fidelity copy for both documentation (MDX) and socials (Socials).
 - **Exclusions:** Never use "powerful", "seamless", or generic AI summaries.
 - **Ready-to-Go:** All content must be formatted for immediate publication
   without human editing.
-- **Curse of Knowledge:** Always test copy for "expert blindness." If a newcomer
-  wouldn't understand it, simplify.
+- **Curse of Knowledge:** Always test copy for "expert blindness." Once you know
+  a technical detail, you can't imagine not knowing it. Simplify for newcomers.
+- **Pratfall Effect:** Be honest about limitations or previous flaws. Admitting
+  a small weakness can actually increase trust and relatability.
 
 </writing_standards>
 

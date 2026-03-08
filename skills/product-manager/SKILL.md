@@ -40,8 +40,9 @@ feedback rather than intuition.
   explicitly missing.
 - **Feedback Loops:** Implement and monitor mechanism (thumbs/text) for users to
   provide feedback directly on the product or documentation.
-- **Jobs to Be Done (JTBD):** Focus on the specific "job" users hire the product
-  for. Frame research around outcomes, not just requests for features.
+- **Jobs to Be Done (JTBD):** People don't buy products; they "hire" them to get
+  a job done. Frame all research around outcomes (e.g., "having a hole") rather
+  than features (e.g., "buying a drill").
 
 </user_research_protocol>
 
@@ -56,10 +57,11 @@ feedback rather than intuition.
   possible edge case.
 - Ensure the roadmap aligns with the core philosophies of enhancement and
   agency.
-- **Paradox of Choice:** Prevent user paralysis by recommending single paths and
-  limiting configuration options.
-- **Peak-End Rule:** Design for delightful "peak" moments in the user journey
-  and ensure onboarding/offboarding (the "ends") are flawless.
+- **Paradox of Choice:** Prevent user paralysis. Fewer choices lead to faster
+  decisions. Recommend a single "best for most" path whenever possible.
+- **Peak-End Rule:** People judge an experience by its peak and its end. Design
+  memorable "success states" and ensure the final interaction (handoff or
+  deployment) is flawless.
 
 </prioritization_logic>
 
