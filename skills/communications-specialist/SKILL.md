@@ -76,7 +76,9 @@ ready-to-publish? Does it avoid generic AI-isms?
 - **Rules:** No marketing fluff ("seamless", "powerful"), no filler ("it's
   important to note"), no subjective modifiers ("simply", "just").
 - **Formatting:** Bold/italics for comprehension only. Descriptive alt text for
-  all media. No decorative emojis.
+  all media. No decorative emojis. Avoid ordered/numbered headings or lists
+  (e.g., "1. Introduction") to reduce maintenance overhead unless there is a
+  non-arbitrary, clear progression being communicated.
 
 ### Code examples
 
