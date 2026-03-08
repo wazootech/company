@@ -3,12 +3,9 @@ name: experience-designer
 description: Senior UI/UX Designer. Use this skill whenever the user mentions interfaces, styling, user flows, or design systems, even if they don't explicitly ask for a "designer." Use it to create high-fidelity interfaces that prioritize user agency.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Experience Designer
 
@@ -29,10 +26,8 @@ Do not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan internal blueprints and `docs/design/`** and identify: what core user
-  flow or UI component feels "standard" rather than "premium"?
+- **Scan Context**: Identify any core user flow or UI component that feels
+  "standard" rather than "premium."
 
 ## Your thinking framework
 

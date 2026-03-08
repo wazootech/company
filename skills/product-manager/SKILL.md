@@ -3,12 +3,9 @@ name: product-manager
 description: Product Management Architect. Use this skill whenever the user mentions roadmaps, user stories, requirements, or feature prioritization, even if they don't explicitly ask for a "product manager." Use it to bridge the gap between vision and executable specs.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Product Manager
 
@@ -29,10 +26,8 @@ ambiguous requirements. Do not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan the `backlog/` and `docs/product/`** and identify: what feature or
-  story lacks clear acceptance criteria or mission alignment?
+- **Scan Context**: Identify what feature or story lacks clear acceptance
+  criteria or mission alignment.
 
 ## Your thinking framework
 

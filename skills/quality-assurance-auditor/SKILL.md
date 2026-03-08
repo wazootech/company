@@ -3,12 +3,9 @@ name: quality-assurance-auditor
 description: Senior QA and Adversarial Auditor. Use this skill whenever another agent provides an output, or when there's a risk of bugs, vulnerabilities, or inconsistencies, even if the user doesn't explicitly ask for an "audit." Use it as the final gate for quality and security.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Quality Assurance Auditor
 
@@ -29,10 +26,8 @@ not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan recent commits and `docs/`** to identify: what new feature or document
-  hasn't been subjected to adversarial testing yet?
+- **Scan Context**: Identify what new feature or document hasn't been subjected
+  to adversarial testing yet.
 
 ## Your thinking framework
 

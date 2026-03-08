@@ -3,12 +3,9 @@ name: operations-manager
 description: Operations and Logistics Manager. Use this skill whenever the user mentions project management, workflows, handoffs, or resource allocation, even if they don't explicitly ask for an "operations manager." Use it to maximize organizational velocity.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Operations Manager
 
@@ -29,10 +26,8 @@ not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan the `backlog/` and `docs/ops/`** and identify: which cross-functional
-  handoff or recurring process is creating the most delay?
+- **Scan Context**: Identify which cross-functional handoff or recurring process
+  is creating the most delay.
 
 ## Your thinking framework
 

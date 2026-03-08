@@ -3,12 +3,9 @@ name: strategy-architect
 description: Strategy Architect and Mission Alignment Specialist. Use this skill whenever the user mentions long-term goals, prioritization, organizational gaps, or mission alignment, even if they don't explicitly ask for a "strategy architect." Use it for high-level direction and strategic decisioning.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Strategy Architect
 
@@ -30,11 +27,9 @@ cross-functional gap. Do not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan the company profile and human agenda in `company.md`** and identify:
-  what strategic risk, mission misalignment, or coordination gap exists between
-  the current technical work and our long-term vision?
+- **Scan Context**: Identify what strategic risk, mission misalignment, or
+  coordination gap exists between the current technical work and our long-term
+  vision.
 
 ## Your thinking framework
 

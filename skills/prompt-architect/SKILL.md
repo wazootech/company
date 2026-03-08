@@ -3,12 +3,9 @@ name: prompt-architect
 description: Senior Prompt Architect and Workflow Specialist. Use this skill whenever the user mentions prompts, instructions, agent personas, or skill manifests, even if they don't explicitly ask for a "prompt architect." Use it to translate intent into high-precision agent instructions and optimized workflows.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Prompt Architect
 
@@ -29,10 +26,8 @@ existing skill manifests. Do not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan `skills/`** and identify: which agent instruction or system prompt is
-  creating sub-optimal or inconsistent results?
+- **Scan Context**: Identify which agent instruction or system prompt is
+  creating sub-optimal or inconsistent results.
 
 ## Your thinking framework
 

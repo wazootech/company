@@ -1,103 +1,41 @@
-# Wazoo company context & protocols
+# Shared Skill Protocol (SSP)
 
-This file is the single source of truth for Wazoo's identity, organizational
-structure, task list, and operating standards.
+This protocol replaces the static `company.md` with a dynamic, agentic
+bootstrapping mechanism. All Wazoo AI staff must adhere to this protocol to
+ensure mission alignment and operational intelligence.
 
-## Company Profile
+## Bootstrapping Procedure
 
-### Vision
+Upon initialization, all AI agents must perform the following actions:
 
-Democratizing digital agency through intelligent tools and human-AI
-collaboration.
+1. **Fetch Personal Intelligence**: Request the JSON-LD graph from
+   `https://wazoo.dev`.
+2. **Extract Context**:
+   - **Mission & Vision**: Identify the `@type: Organization` node and extract
+     the `mission` and `description` fields.
+   - **Core Principles**: Extract the `foundationalPrinciple` array from the
+     Organization node.
+   - **SameAs Links**: Identify official channels (GitHub, LinkedIn, X) to
+     understand the broader ecosystem.
+3. **Align Operations**: Synthesize the fetched intelligence with the specific
+   mandates defined in the skill manifest.
 
-### Stage
+## Organizational Single Source of Truth
 
-[Venture Stage - e.g., Seed, Growth, Beta]
+The live JSON-LD graph at `https://wazoo.dev` is the definitive source for:
 
-### Mission
+- Wazoo's Identity & Vision
+- Core Philosophies (DDD, Itemized OS, etc.)
+- Official Ecosystem Links
 
-To empower individuals to command digital environments with the same fluidity
-they command their own thoughts.
+## Operating Protocols
 
-### Revenue model
+### Documentation-Driven Development (DDD)
 
-[Revenue Model - e.g., SaaS, Open Core, Transactional]
+DDD remains the primary law. No implementation without rigorous documentation
+first. Consult the `skills/communications-specialist/SKILL.md` for standards.
 
-### Core philosophies
+### Shared "On Load" Protocol
 
-- **Documentation-Driven Development (DDD):** No implementation without rigorous
-  documentation first.
-- **Itemized OS:** Breaking down silos.
-- **Autonomous Staffing:** Replacing traditional roles with codified AI skills.
-- **Agency:** User-controlled digital environments.
-- **Malleability:** Software that adapts to the user.
-
----
-
-## Organization chart
-
-```mermaid
-graph TD
-    SA[Strategy Architect] --> OM[Operations Manager]
-    SA --> TA[Technical Architect]
-    
-    OM --> PM[Product Manager]
-    
-    PM --> Experience[Experience Dept]
-    PM --> Engineering[Engineering Dept]
-    
-    subgraph Experience
-        ED[Experience Designer]
-    end
-    
-    subgraph Engineering
-        SE[Software Engineer]
-        IE[Infrastructure Engineer]
-        QC[Quality Assurance Auditor]
-    end
-    
-    subgraph Intelligence
-        DS[Data Scientist]
-        PA[Prompt Architect]
-    end
-    
-    subgraph Growth
-        CS[Communications Specialist]
-    end
-
-    SA -.-> Intelligence
-    OM -.-> Growth
-```
-
----
-
-## Human agenda
-
-Two-way task list between the Wazoo Staff/Agent Team and the Human Founder.
-
-### High priority
-
-- [ ] **Complete skill optimization** — Adopting C-Suite patterns for all
-      agents. [In progress]
-
-### Medium priority
-
-- [ ] **Define Venture Stage** -- Please update this section with current stage
-      and revenue model.
-
-### Completed
-
-- [x] Initial research of reference skills repository.
-
----
-
-## Operating protocols
-
-All AI staff must adhere to the shared Agent Operating Protocols.
-
-### Core protocol: DDD
-
-**Documentation-Driven Development (DDD)** is the primary law. No implementation
-without rigorous documentation first. Consult the
-[communications-specialist](skills/communications-specialist/SKILL.md) for
-documentation standards.
+Every skill must implement a fetch step to synchronize with the `wazoo.dev`
+graph before executing core actions.

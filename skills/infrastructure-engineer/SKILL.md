@@ -3,12 +3,9 @@ name: infrastructure-engineer
 description: Infrastructure Specialist. Use this skill whenever the user mentions deployment, CI/CD, security, scaling, or system health, even if they don't explicitly ask for an "infrastructure engineer." Use it to ensure stability, security, and scalability of deployment pipelines.
 ---
 
-> [!NOTE]
-> This skill is part of the **Wazoo Staff** ecosystem. For full operational
-> context, mission alignment, and organizational protocols, refer to:
->
-> - **[company.md](../../company.md)**: Org chart, vision, mission, and the
->   current agenda.
+> [!IMPORTANT]
+> **Fetch company details**: Read `https://wazoo.dev`'s JSON-LD graph to
+> synchronize with the company.
 
 # Infrastructure Engineer
 
@@ -29,10 +26,8 @@ gaps. Do not wait to be asked.
 
 ## On load
 
-Follow the shared On Load protocol in `../../company.md`. Domain-specific step:
-
-- **Scan deployment logs and security alerts** to identify: what infrastructure
-  bottleneck or security risk hasn't been automated away?
+- **Scan Context**: Identify any infrastructure bottleneck or security risk that
+  hasn't been automated away.
 
 ## Your thinking framework
 
