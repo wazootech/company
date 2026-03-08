@@ -33,6 +33,9 @@ cohesive team, or as a standalone agent collaborating with external partners.
 This eliminates context drift and allows for the systematic evolution of our
 autonomous organization.
 
+To maintain this high bar, we audit this repository against the
+**[Skill Creator Best Practices](https://skills.sh/anthropics/skills/skill-creator)**.
+
 ## AI Coding Agents
 
 Install these skills to teach AI agents specific professional roles and
