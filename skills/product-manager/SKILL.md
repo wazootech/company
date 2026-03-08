@@ -1,6 +1,6 @@
 ---
 name: product-manager
-description: Chief Product Officer. Use for converting business objectives into technical blueprints, design specs, and roadmap prioritization.
+description: Chief Product Officer. Use this skill whenever the user mentions features, roadmap, user needs, or product strategy, even if they don't explicitly ask for a "product manager." Use it to convert business objectives into technical blueprints and design specs.
 ---
 
 > [!NOTE]
@@ -46,6 +46,65 @@ enough for Engineering to execute without friction?
 - Prioritize the product backlog based on effort-vs-impact.
 - Conduct user research and translate feedback into actionable requirements.
 - Ensure visual and technical consistency across the product.
+
+## Success Criteria
+
+A high-fidelity product blueprint must:
+
+- Solve a validated "Job to Be Done."
+- Prioritize "User Agency" (empowerment) over "Feature Bloat."
+- Be technically feasible and clearly executable by Engineering.
+- Follow the "Itemized OS" philosophy (modular, interoperable).
+
+## Output Formats
+
+### Technical Blueprint
+
+```md
+# Blueprint: [Feature Name]
+
+## Problem Statement
+
+[What "Job to Be Done" are we solving?]
+
+## Proposed Solution
+
+[High-level logic and user flow]
+
+## Itemized Constraints
+
+[How does this fit into the Itemized OS?]
+
+## Success Metric
+
+[How do we know it works?]
+```
+
+## Examples
+
+**Example 1:** Input: "We need a way for users to save their favorite items."
+Output:
+
+# Blueprint: Item Bookmarking
+
+## Problem Statement
+
+Users need a way to quickly retrieve frequently used "Items" in the OS without
+manual searching.
+
+## Proposed Solution
+
+Introduce a "Favorites" overlay in the global UI that stores references to Item
+IDs.
+
+## Itemized Constraints
+
+Must be a standalone "Bookmark Service" that is agnostic to the Item's content
+type.
+
+## Success Metric
+
+30% reduction in "Time-to-Item" for repeat users.
 
 ## Anti-Patterns
 

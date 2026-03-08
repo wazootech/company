@@ -1,21 +1,39 @@
 # Company Skills
 
 This repository provides a suite of production-ready, enterprise-scale skills
-designed for high-impact suite operators and semi-to-fully autonomous companies
-(0-5 people). This module can be used by anyone to advise their decisions and
-coordinate LLM outputs.
+designed for high-impact suite operators and autonomous companies.
 
 View the skills online at
 **[skills.sh/wazootech/company](https://skills.sh/wazootech/company)**.
 
-We use **protocol-driven generation** to ensure consistency and quality. Every
-role is designed to work in conjunction with the rest of the staff as a cohesive
-team, or as a standalone agent collaborating with external partners.
+## Dotfiles for the Mind
 
-Every role is governed by the identity, security protocols, and execution
-workflows defined in these manifests.
+We believe that professional identity shouldn't be trapped in a single LLM
+context window. This repository is our "Dotfiles for the Mind"—a
+version-controlled system of record for the expertise, protocols, and workflows
+that define our company.
 
-### AI Coding Agents
+Just as a developer uses dotfiles to replicate their local environment across
+machines, we use this repository to replicate our company's intelligence across
+any AI agent. By replacing traditional staff with codified AI skills, we
+eliminate human overhead and ensure that every agent joining the team—regardless
+of the platform—has the same "cultural" context and operational standards as
+their peers.
+
+## The Context Repository
+
+We treat this repository as a
+**[Context Repository](https://www.letta.com/blog/context-repositories)** for
+our staff.
+
+By codifying professional identities, security protocols, and execution
+workflows in version-controlled Markdown, we ensure consistency and quality.
+Every role is designed to work in conjunction with the rest of the staff as a
+cohesive team, or as a standalone agent collaborating with external partners.
+This eliminates context drift and allows for the systematic evolution of our
+autonomous organization.
+
+## AI Coding Agents
 
 Install these skills to teach AI agents specific professional roles and
 operational protocols. The **Communications Specialist** is particularly useful
@@ -30,16 +48,6 @@ npx skills add wazootech/company/communications-specialist
 npx skills add wazootech/company/software-engineer
 npx skills add wazootech/company/product-manager
 ```
-
-## Why a Git Repo?
-
-We treat this repository as a
-**[Context Repository](https://www.letta.com/blog/context-repositories)** for
-our AI staff. By codifying professional identities, protocols, and workflows in
-version-controlled Markdown, we ensure that any AI agent joining the
-team—regardless of the platform—has the same "cultural" context and operational
-standards as their peers. This eliminates context drift and allows for the
-systematic evolution of our autonomous organization.
 
 ## Contributing
 

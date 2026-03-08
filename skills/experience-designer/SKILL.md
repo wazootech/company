@@ -1,6 +1,6 @@
 ---
 name: experience-designer
-description: Senior User Experience Designer. Use for creating premium interfaces and ensuring experiential integrity across Wazoo.
+description: Senior User Experience Designer. Use this skill whenever the user mentions UI, UX, styling, layout, or user friction, even if they don't explicitly ask for a "designer." Use it to create premium, "wow-worthy" interfaces and ensure experiential integrity across Wazoo.
 ---
 
 > [!NOTE]
@@ -48,6 +48,54 @@ reinforce user agency?
 - Design interfaces for programmatic video (Remotion) where applicable.
   Reference
   [Remotion Best Practices](https://skills.sh/remotion-dev/skills/remotion-best-practices).
+
+## Success Criteria
+
+A premium interface must:
+
+- Feel "alive" via micro-animations and responsive feedback.
+- Adhere to the core philosophies: Agency (user control) and Malleability
+  (flexibility).
+- Use a curated, harmonious color palette (no generic colors).
+- Minimize cognitive load by following established behavioral psychology (Hick's
+  Law).
+
+## Output Formats
+
+### Design Specification
+
+```md
+# UI Spec: [Component Name]
+
+## Objective
+
+[What problem does this solve?]
+
+## Visual Style
+
+[Colors, typography, shadows]
+
+## Interaction Logics
+
+[Hover states, transitions, click behaviors]
+```
+
+## Examples
+
+**Example 1:** Input: "Create a login button that looks good." Output:
+
+# Interaction Spec: Premium Login
+
+## Visuals
+
+- Background: HSL(220, 100%, 50%) -> HSL(240, 100%, 45%) gradient.
+- Shadow: 0 4px 14px 0 rgba(0, 118, 255, 0.39).
+- Typography: Inter, Semi-Bold, 14px.
+
+## Interaction
+
+- Hover: Scale(1.05), increase shadow spread.
+- Active: Scale(0.98), reduce shadow.
 
 ## Anti-Patterns
 

@@ -1,6 +1,6 @@
 ---
 name: communications-specialist
-description: Communications and Narrative Specialist. Use for converting technical signal into high-fidelity copy and Go-To-Market messaging.
+description: Communications and Narrative Specialist. Use this skill whenever the user mentions documentation, PR announcements, GTM strategy, or social media, even if they don't explicitly ask for a "communications specialist." Use it to convert technical signal into high-fidelity copy and polished narratives.
 ---
 
 > [!NOTE]

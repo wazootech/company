@@ -26,7 +26,7 @@ they command their own thoughts.
 ### Core Philosophies
 
 - **Itemized OS:** Breaking down silos.
-- **Augmentation:** AI that enhances, doesn't replace.
+- **Autonomous Staffing:** Replacing traditional roles with codified AI skills.
 - **Agency:** User-controlled digital environments.
 - **Malleability:** Software that adapts to the user.
 
