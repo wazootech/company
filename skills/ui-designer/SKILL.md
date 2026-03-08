@@ -27,10 +27,17 @@ the gap between technical blueprints and visual excellence.
 - **Fogg Behavior Model:** Ensure every desired action has high ability (it is
   triavially easy) and a clear prompt. Behavior happens when Motivation,
   Ability, and a Prompt converge.
-- **Zeigarnik Effect:** Use progress indicators and "open loops" to drive
-  completion. People remember uncompleted tasks better than completed ones.
+- **Zeigarnik Effect:** Use loops and progress indicators to drive completion.
 - **IKEA Effect:** Leverage ownership by letting users customize or configure
   small parts of the interface early. Their effort increases perceived value.
+- **UI-as-Video (Remotion):**
+  - **Timeline Thinking:** Design interfaces as a function of time. Map specific
+    UI states to frame ranges in the Remotion timeline.
+  - **Eased Animations:** Use `sprig` and `interpolate` helpers for natural,
+    frame-perfect motion. Avoid linear transitions unless architecturally
+    required.
+  - **Dynamic Composition:** Design for parameterized rendering (e.g., dynamic
+    text/image overlays based on input props).
 
 </design_standards>
 

@@ -31,6 +31,13 @@ polished, high-fidelity copy for both documentation (MDX) and socials (Socials).
     first to create a psychological "debt" before asking for engagement.
   - **Mere Exposure Effect:** Maintain a consistent brand voice and visual
     style; familiarity breeds preference and trust.
+- **Programmatic Video (Remotion):**
+  - **Short-Form Strategy:** Convert tech updates and benchmarks into automated
+    60-second Reels/Shorts using Remotion.
+  - **Component-Level Loops:** Design reusable video components for social
+    hooks, testimonial scrolls, and live stats.
+  - **Dynamic Templates:** Ensure all video assets can be parameterized with
+    real-time data from the Chief Orchestrator.
 
 </output_formats>
 

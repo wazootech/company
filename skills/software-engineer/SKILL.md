@@ -60,6 +60,13 @@ and maintainable.
   - **Security:** Sanitize all inputs and assume all external data is untrusted.
   - **Type Safety:** Maintain 100% type coverage in TypeScript/Python/Rust. No
     `any` or `Unsafe` without deep architectural justification.
+  - **Remotion (Programmatic Video):**
+    - **Frame-Driven Logic:** Always drive animations via `useCurrentFrame()`.
+      Never use CSS transitions or non-deterministic timing.
+    - **Asset Pre-fetching:** Ensure all external images/data are pre-fetched or
+      pre-rendered to prevent flickering during the render process.
+    - **Composition Standards:** Define clear `width`, `height`, `fps`, and
+      `durationInFrames` for every `Composition`.
 
 </coding_standards>
 
