@@ -25,6 +25,10 @@ polished, high-fidelity copy for both documentation (MDX) and socials (Socials).
   sentence-case headings and avoid marketing filler.
 - **Social Copy:** Platform-ready posts for Twitter/X, LinkedIn, and Discord,
   focusing on developer "superpowers."
+  - **Mimetic Desire:** Highlight that other high-impact engineers are using
+    these tools to create social contagion.
+  - **Reciprocity:** Offer value (free tools, snippets, blueprints) before asking
+    for clicks.
 
 </output_formats>
 
@@ -34,6 +38,8 @@ polished, high-fidelity copy for both documentation (MDX) and socials (Socials).
 - **Exclusions:** Never use "powerful", "seamless", or generic AI summaries.
 - **Ready-to-Go:** All content must be formatted for immediate publication
   without human editing.
+- **Curse of Knowledge:** Always test copy for "expert blindness." If a newcomer
+  wouldn't understand it, simplify.
 
 </writing_standards>
 
