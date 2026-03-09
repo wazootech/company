@@ -52,6 +52,30 @@ npx skills add wazootech/company/software-engineer
 npx skills add wazootech/company/product-manager
 ```
 
+## Use with Zo
+
+Set up a [Zo](https://zo.computer/) agent to use the company skills.
+
+Here's a snippet you can copy and paste directly into your Zo assistant to
+create a sync agent:
+
+```markdown
+# Create Agent: Wazoo Company Skills
+
+Install the Wazoo Company skill suite in this Zo.
+
+## Instructions
+
+1. Clone the Wazoo Company repo:
+   `git clone https://github.com/wazootech/company.git ~/Skills/wazoo-company`
+2. Or pull latest: `cd ~/Skills/wazoo-company && git pull`
+3. List skills: `ls ~/Skills/wazoo-company/skills/`
+
+## Schedule
+
+Set a recurring reminder to run step 2 daily (or more frequently as needed).
+```
+
 ## Contributing
 
 We welcome contributions to help refine the Wazoo staff.
