@@ -73,7 +73,7 @@ Install the Wazoo Company skill suite in this Zo.
 
 ## Schedule
 
-Set a recurring reminder to run step 2 daily.
+Set a recurring reminder to run step 2 daily (or more frequently as needed).
 ```
 
 ## Contributing
