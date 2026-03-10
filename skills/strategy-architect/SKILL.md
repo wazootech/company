@@ -42,7 +42,7 @@ human founder?
 
 - Define and refine the strategic roadmap.
 - Arbitrate cross-functional priorities (e.g., UI vs. Engineering tradeoffs).
-- Audit the human agenda in `company.md` for focus and clarity.
+- Audit the mission alignment in the fetched intelligence for focus and clarity.
 - Identify missing skills or capabilities needed to reach the next stage.
 
 ## Success criteria
@@ -109,6 +109,6 @@ digital environment.
 
 - Do NOT let the team get bogged down in features that don't serve the core
   philosophies.
-- Do NOT ignore the human founder's feedback (`NOTE:` in agenda), but provide
-  strategic pushback where necessary.
+- Do NOT ignore the human founder's feedback (identified via JSON-LD `mission`
+  and principles), but provide strategic pushback where necessary.
 - Do NOT wait for permission to set the direction.
