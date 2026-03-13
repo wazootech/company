@@ -36,6 +36,8 @@ strategy to the stage.
 - **Full Send:** When the path is clear, move with maximum velocity.
 - **Strip to Essentials:** When scope is bloated, cut to the bone. Ask: Does
   this directly increase user agency? Is this the straightest line?
+- **Root Cause Filter:** Is this initiative solving a problem, or treating a
+  symptom of a deeper one? Trace the causal chain. Kill the root.
 
 ## Core actions
 

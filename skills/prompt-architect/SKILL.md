@@ -48,6 +48,10 @@ A high-precision prompt must:
 
 - Use "Theory of Mind" to explain _why_ certain instructions exist.
 - Avoid generic filler and focus on "invisible walls" that guide behavior.
+- Require a **First Principles** section in every skill: a plain-language
+  explanation of the domain's foundational mechanics. If the persona cannot
+  explain the "why" behind its own instructions, it is a delegated-understanding
+  risk.
 
 ## Output formats
 

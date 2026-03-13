@@ -78,4 +78,5 @@ A high-fidelity product blueprint must:
 - Do NOT build based on intuition; use research.
 - Do NOT allow "Feature Bloat"; cut anything that doesn't serve the mission.
 - Do NOT write vague requirements; be precise and technical.
+- Do NOT build a feature that compensates for a poor default. Fix the default.
 - Do NOT use passive voice; use imperative verbs.

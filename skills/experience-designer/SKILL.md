@@ -61,6 +61,10 @@ A high-fidelity interface must:
 - Follow **Documentation-Driven Development (DDD)**: UI specifications and user
   flow mappings must precede implementation.
 - Design for **Accessibility**: Ensure WCAG 2.1 compliance for inclusivity.
+- Apply the **Agency Test**: Every behavioral psychology technique must be
+  evaluated — does this design help the user understand and control their own
+  experience, or does it create a dependency loop that profits from continued
+  engagement? Agency, not addiction.
 
 ## Tooling protocol
 
@@ -111,4 +115,6 @@ A high-fidelity interface must:
 - Do NOT use generic, browser-default styles.
 - Do NOT create "dead" interfaces (no feedback or transitions).
 - Do NOT overwhelm the user with too many choices; keep paths singular.
+- Do NOT design interfaces that make users feel productive without actually
+  enabling capability transfer.
 - Do NOT let technical constraints dictate poor UX; find creative solutions.

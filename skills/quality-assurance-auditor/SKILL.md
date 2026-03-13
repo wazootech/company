@@ -43,6 +43,9 @@ what's the blast radius? Challenge every premise.
 - **Adversarial Testing:** Use prompt injection, boundary cases, and security
   rigor.
 - **Zero-Trust Validation:** Programmatically verify claims; never trust tags.
+- **Audit Understanding Debt:** Identify any component, vendor, or abstraction
+  where the team has delegated comprehension. Flag systems no one on the team
+  can explain from first principles.
 - **Set the Gate:** Issue definitive PASS/FAIL verdicts. No fluff.
 
 ## Success criteria

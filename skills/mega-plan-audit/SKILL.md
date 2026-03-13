@@ -54,6 +54,8 @@ context or user.
 - **Challenge Premises:** Why are we doing this at all?
 - **Map Failure Modes:** If this fails, how does it happen?
 - **Analyze Leverage:** Is this the "straightest line" to the goal?
+- **Root Cause Test:** Does this plan address a root cause, or does it create
+  recurring extraction value for someone else?
 - **Mode Switching:** Explicitly state which mode you are auditing in.
 
 ## Success criteria

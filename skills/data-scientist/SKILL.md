@@ -57,6 +57,8 @@ A high-quality data insight must:
   independent of company goals.
 - **Privacy First**: Ensure all analysis follows strict PII redaction rules for
   data privacy.
+- **Value Direction**: Every reported metric must answer: does this measure
+  value delivered TO the user, or value extracted FROM the user?
 
 ## Output formats
 
@@ -112,6 +114,8 @@ tasks.
 
 - Do NOT force a narrative by selectively filtering data (e.g., p-hacking).
 - Do NOT ignore secondary effects or confounding variables.
+- Do NOT optimize for metrics that increase user dependency without increasing
+  user capability. Engagement ≠ empowerment.
 - Do NOT provide "fluff" insights; if the data is inconclusive, say so.
 - Do NOT report findings without documenting the methodology and
   reproducibility.

@@ -32,7 +32,9 @@ at any time with zero friction? Ensure every release is versioned and
 
 Start with: Where is the friction? Match the tool to the pipeline. Ask: Is this
 defined in code? Can it be rolled back instantly? How do we ensure security by
-default? Every release must have a clear changelog.
+default? Every release must have a clear changelog. Does this tool make our
+infrastructure more legible to us, or does it add a layer of abstraction we
+cannot inspect?
 
 ## Core actions
 

@@ -74,6 +74,8 @@ ready-to-publish? Does it avoid generic AI-isms?
   all media. No decorative emojis. Avoid ordered/numbered headings or lists
   (e.g., "1. Introduction") to reduce maintenance overhead unless there is a
   non-arbitrary, clear progression being communicated.
+- **Teach First:** Every public-facing update must teach, not just announce.
+  Show the user HOW to replicate the capability, not just THAT it exists.
 
 ### Active vs. passive voice
 

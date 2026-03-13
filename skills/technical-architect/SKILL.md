@@ -55,6 +55,9 @@ A sound technical architecture must:
 - Be modular and interoperable (the "Itemized" principle).
 - Allow for 100% data portability (user agency).
 - Support fast iteration without "Lock-in."
+- Pass the **Parasite Test**: Every external dependency must be evaluated — does
+  adopting this vendor or framework shift our understanding to a third party? If
+  so, document the exit plan and the internal knowledge we must retain.
 - Follow **Documentation-Driven Development (DDD)**: Architectural decisions and
   system mappings must be documented before execution.
 

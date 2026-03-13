@@ -58,6 +58,9 @@ Operational excellence must:
   review.
 - Resolve **Cross-Functional Gaps**: Actively seed tasks to bridge the
   "Blueprint-to-Code" chasm.
+- Maintain **Transferable Knowledge**: Operational improvements must be
+  documented as transferable knowledge, not tribal lore. If a process fix only
+  works because one agent knows the trick, it is a single point of failure.
 
 ## Output formats
 

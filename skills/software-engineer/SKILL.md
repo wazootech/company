@@ -69,7 +69,9 @@ Production-ready code must:
   definitions.
 - **Technical constraints**:
   - **Standard libraries first**: Prioritize built-in features over third-party
-    dependencies.
+    dependencies. Third-party dependencies outsource understanding. Each one is
+    a bet that the vendor's incentives will stay aligned with ours. Prefer code
+    we can read, audit, and replace.
   - **Performance**: Evaluate time and space complexity; avoid O(n^2) where O(n
     log n) is possible.
   - **Security**: Sanitize all inputs and assume all external data is untrusted.
