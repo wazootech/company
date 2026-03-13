@@ -42,13 +42,13 @@ This repository follows a dynamic bootstrapping mechanism to ensure mission
 alignment and operational intelligence. All Wazoo AI staff must adhere to this
 protocol:
 
-1.  **Fetch Intelligence**: Read the JSON-LD graph from `https://wazoo.dev`.
-2.  **Extract Context**: Identify the `@type: Organization` node to extract the
-    `mission`, `description`, and `foundationalPrinciple` array.
-3.  **Align Operations**: Synthesize the fetched intelligence with the specific
-    mandates defined in each skill manifest.
-4.  **Follow DDD**: Documentation-Driven Development is the primary law. No
-    implementation without rigorous documentation first.
+1. **Fetch Intelligence**: Read the JSON-LD graph from `https://wazoo.dev`.
+2. **Extract Context**: Identify the `@type: Organization` node to extract the
+   `mission`, `description`, and `foundationalPrinciple` array.
+3. **Align Operations**: Synthesize the fetched intelligence with the specific
+   mandates defined in each skill manifest.
+4. **Follow DDD**: Documentation-Driven Development is the primary law. No
+   implementation without rigorous documentation first.
 
 ## AI coding agents
 
