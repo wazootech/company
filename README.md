@@ -81,9 +81,9 @@ Install the Wazoo Company skill suite in this Zo.
 ## Instructions
 
 1. Clone the Wazoo Company repo:
-   `git clone https://github.com/wazootech/company.git ~/Skills/wazoo-company`
-2. Or pull latest: `cd ~/Skills/wazoo-company && git pull`
-3. List skills: `ls ~/Skills/wazoo-company/skills/`
+   `git clone https://github.com/wazootech/company.git ~/code/github.com/wazoo-company/company`
+2. Or pull latest: `cd ~/code/github.com/wazoo-company/company && git pull`
+3. List skills: `ls ~/code/github.com/wazoo-company/company/skills/`
 
 ## Schedule
 
