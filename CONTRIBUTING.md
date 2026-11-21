@@ -70,6 +70,23 @@ work, and never commit under an identity that is not yours or the operating
 human's. If a change was made by an office agent, the commit message says so
 plainly.
 
+## Previews and QA
+
+Every pull request to [wazoo.dev](https://github.com/wazootech/wazoo.dev) gets a
+preview URL at `<branch>.preview.wazoo.dev`, served by Cloudflare Workers
+Builds. CI gates on format and content checks; the preview is where a reviewer
+sees the rendered result before merge, and QA happens there: open the preview,
+check the change as a visitor would, then merge.
+
+Production for wazoo.dev is GitHub Pages. The preview hostname is route-only:
+the worker route carries `enabled: false`, so previews can never serve
+production traffic, and Cloudflare manages the `*.preview.wazoo.dev` wildcard
+DNS and certificate. Production changes go out only through the merge path.
+
+Other site repositories (docs, blog) have the same CI gates but no preview
+worker yet; a repo that wants previews adds the same `previews` block to its
+wrangler config.
+
 ## Reporting problems
 
 Broken links, wrong rosters, or norms nobody follows are bugs in this repo. Open
