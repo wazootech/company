@@ -2,11 +2,13 @@
 
 ## What this repo is
 
-This repository contains company-level Wazoo source material and operating
-context.
+The Wazoo company handbook: the team roster, Discord agents, working norms, and
+the contributing path. Slow-changing content by design.
 
 ## How to work here
 
+- Read [README.md](README.md) and [CONTRIBUTING.md](CONTRIBUTING.md) before
+  working anywhere in the org.
 - Treat docs here as durable company context. Keep claims precise and avoid
   inventing policy, strategy, or commitments.
 - Preserve existing document structure and naming conventions.
