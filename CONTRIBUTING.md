@@ -46,6 +46,30 @@ are a person, a new agent, or an existing agent picking up unfamiliar work.
 If a change here would need updating more than a few times a year, it belongs in
 the repo it describes.
 
+## AI attribution and provenance
+
+Wazoo is built with AI agents, and the commit history says so openly. Agents
+commit under the human's GitHub identity; attribution lives in the message, not
+in a fake author field.
+
+For new commits, prefer no `Co-Authored-By` trailers at all. They inflate the
+contributors list, and most of them read as noise. The one exception is Claude's
+trailer (`Co-Authored-By: Claude <model> <noreply@anthropic.com>`), which is
+acceptable to keep because it is the industry-standard attribution and already
+runs through the org's history.
+
+Other tools attach their own signatures by default: Copilot adds
+`Co-authored-by: Copilot <copilot@github.com>`, aider adds its own trailer,
+Cursor adds a `Made with Cursor` byline, and some agents (Jules, the Copilot
+coding agent) commit under a bot identity. Existing history keeps whatever it
+has; do not add these to new commits, and never rewrite history to strip
+trailers.
+
+Two hard rules: never fabricate a co-author line for a tool that did not do the
+work, and never commit under an identity that is not yours or the operating
+human's. If a change was made by an office agent, the commit message says so
+plainly.
+
 ## Reporting problems
 
 Broken links, wrong rosters, or norms nobody follows are bugs in this repo. Open
