@@ -72,20 +72,27 @@ plainly.
 
 ## Previews and QA
 
-Every pull request to [wazoo.dev](https://github.com/wazootech/wazoo.dev) gets a
-preview URL at `<branch>.preview.wazoo.dev`, served by Cloudflare Workers
-Builds. CI gates on format and content checks; the preview is where a reviewer
-sees the rendered result before merge, and QA happens there: open the preview,
-check the change as a visitor would, then merge.
+Every pull request to a site repository gets a preview URL. The pattern is
+uniform: a `preview.` label is inserted before the project's own hostname, so
+the platform site serves previews at `<branch>.preview.wazoo.dev` and the
+console at `<preview-name>.preview.console.wazoo.dev`. Cloudflare manages the
+wildcard DNS and certificate for each host.
 
-Production for wazoo.dev is GitHub Pages. The preview hostname is route-only:
-the worker route carries `enabled: false`, so previews can never serve
-production traffic, and Cloudflare manages the `*.preview.wazoo.dev` wildcard
-DNS and certificate. Production changes go out only through the merge path.
+The console is the full three-tier shape:
 
-Other site repositories (docs, blog) have the same CI gates but no preview
-worker yet; a repo that wants previews adds the same `previews` block to its
-wrangler config.
+- `console.wazoo.dev`, production
+- `console-qa.wazoo.dev`, the QA worker, backed by `api-qa.wazoo.dev` and used
+  for end-to-end tests with the QA auth setup
+- `wazoo-console-preview`, a separate worker for pull requests, built by
+  Cloudflare Workers Builds with a build token scoped to that worker only. It
+  talks to the QA API with the QA staging secrets, so a preview never touches
+  production data. Auth allowlists the preview callback domain
+  (`*.preview.console.wazoo.dev/callback`).
+
+QA happens on the preview URL: open it, check the change as a visitor would,
+then merge. The preview worker route always carries `enabled: false`, so
+previews can never serve production traffic; production goes out only through
+the merge path.
 
 ## Reporting problems
 
