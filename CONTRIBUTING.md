@@ -108,6 +108,12 @@ then merge. The preview worker route always carries `enabled: false`, so
 previews can never serve production traffic; production goes out only through
 the merge path.
 
+Docs are the exception: docs.wazoo.dev is hosted by Mintlify, so its preview
+URLs come from Mintlify's GitHub app on every pull request, served on Mintlify's
+own domains. The `preview.`-before-hostname pattern applies to sites we serve
+ourselves; if docs ever move to self-hosting on Workers, it gets
+`preview.docs.wazoo.dev` under the same pattern.
+
 ## Reporting problems
 
 Broken links, wrong rosters, or norms nobody follows are bugs in this repo. Open
