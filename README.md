@@ -62,6 +62,29 @@ where that happens day to day:
 The workspace AGENTS.md carries the details: worktree isolation, cross-repo
 contract order, and the agent-file taxonomy.
 
+## Languages and runtime
+
+The org is not limited to JavaScript and TypeScript (the wiki has Go,
+`linked-markdown-py` is Python), but TypeScript is the core language and the one
+our published packages speak.
+
+The rule is one language, one registry, any runtime:
+
+- Packages publish as TypeScript source through [JSR](https://jsr.io)
+  (`@wazoo/*` and `@worlds/*` scopes). JSR is the distribution channel:
+  consumers install once and the code runs on Node, Deno, Bun, and edge runtimes
+  out of the box, with types included and no build step on their side.
+- Deno is the canonical development runtime for manifests and gates. Core
+  repositories carry a `deno.json`, CI runs `deno fmt --check`, and workspace
+  tasks run through `deno task`.
+- Bun is the development runtime where app velocity matters, such as
+  `worlds-kit`, which pins Bun and runs its dev server with
+  `bun run --bun
+  dev`. Bun stays compatible with the Node ecosystem, so the
+  choice of dev runtime never limits who can consume the package.
+
+A new package picks its dev runtime freely; it publishes through JSR either way.
+
 ## How we work
 
 These norms apply to every team member, human or agent.
