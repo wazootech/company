@@ -39,6 +39,29 @@ Each has its own repository with its persona and rules:
 Discord bots post in their own lanes. A bot that starts drifting into another
 bot's lane gets pointed back; this handbook is the tiebreaker.
 
+## How we dogfood
+
+Wazoo's tooling runs on Wazoo before it runs on anyone else. The workspace is
+where that happens day to day:
+
+- [wazootech/workspace](https://github.com/wazootech/workspace) is the canonical
+  launchpoint for local development. It is not a monorepo: a `workspace.json`
+  manifest checks every org repository out under `repos/`, driven by the
+  in-house [`wspace` CLI](https://github.com/wazootech/workspace-cli) (published
+  as `@wazoo/workspace` on JSR). Agents run `wspace check` when a session starts
+  and again before it ends.
+- The org's brain of record lives in the workspace at `repos/memory` (private),
+  served at [memory.wazoo.dev](https://memory.wazoo.dev) and validated by the
+  wiki CLI. Issues and pull requests stay the source of truth for work state;
+  the brain holds the context those items link.
+- Skills work the way we tell users they should: product skills ship inside
+  product repositories and install via `npx skills add`, while
+  workspace-development skills live in the workspace root under a `wazootech_`
+  prefix.
+
+The workspace AGENTS.md carries the details: worktree isolation, cross-repo
+contract order, and the agent-file taxonomy.
+
 ## How we work
 
 These norms apply to every team member, human or agent.
