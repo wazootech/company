@@ -89,6 +89,20 @@ The console is the full three-tier shape:
   production data. Auth allowlists the preview callback domain
   (`*.preview.console.wazoo.dev/callback`).
 
+The API side has preview workers too: `wazoo-api-preview` serves
+`preview.api.wazoo.dev` and `worlds-api-preview` serves
+`preview.data.wazoo.dev`. A console preview calls the API preview with the same
+branch alias, and falls back to `main.preview.api.wazoo.dev` when no matching
+API preview exists.
+
+Trust between these hosts is explicit, not inherited:
+
+- CORS trusts console preview origins on the QA API only, never production, and
+  the `.wazoo.dev` CORS rule requires `https` and parses origins instead of
+  string-matching them.
+- The production session cookie uses the `__Host-` prefix, which stops a sibling
+  preview host from planting a session cookie that production would honor.
+
 QA happens on the preview URL: open it, check the change as a visitor would,
 then merge. The preview worker route always carries `enabled: false`, so
 previews can never serve production traffic; production goes out only through
