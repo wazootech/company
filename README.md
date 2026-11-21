@@ -33,8 +33,11 @@ A second family of agents lives in the Wazoo Discord, built as agent houses.
 Each has its own repository with its persona and rules:
 
 - [Data](https://github.com/wazootech/data), the developer-support agent
+  (private)
 - [Computer](https://github.com/wazootech/computer), persona and Discord channel
+  (private)
 - [Dude](https://github.com/wazootech/dude), comic relief for the admin team
+  (private)
 
 Discord bots post in their own lanes. A bot that starts drifting into another
 bot's lane gets pointed back; this handbook is the tiebreaker.
@@ -51,9 +54,8 @@ where that happens day to day:
   as `@wazoo/workspace` on JSR). Agents run `wspace check` when a session starts
   and again before it ends.
 - The org's brain of record lives in the workspace at `repos/memory` (private),
-  served at [memory.wazoo.dev](https://memory.wazoo.dev) and validated by the
-  wiki CLI. Issues and pull requests stay the source of truth for work state;
-  the brain holds the context those items link.
+  validated by the wiki CLI. Issues and pull requests stay the source of truth
+  for work state; the brain holds the context those items link.
 - Skills work the way we tell users they should: product skills ship inside
   product repositories and install via `npx skills add`, while
   workspace-development skills live in the workspace root under a `wazootech_`
