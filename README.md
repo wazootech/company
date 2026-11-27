@@ -76,14 +76,13 @@ The rule is one language, one registry, any runtime:
   (`@wazoo/*` and `@worlds/*` scopes). JSR is the distribution channel:
   consumers install once and the code runs on Node, Deno, Bun, and edge runtimes
   out of the box, with types included and no build step on their side.
-- Deno is the canonical development runtime for manifests and gates. Core
-  repositories carry a `deno.json`, CI runs `deno fmt --check`, and workspace
-  tasks run through `deno task`.
-- Bun is the development runtime where app velocity matters, such as
-  `worlds-kit`, which pins Bun and runs its dev server with
-  `bun run --bun
-  dev`. Bun stays compatible with the Node ecosystem, so the
-  choice of dev runtime never limits who can consume the package.
+- Bun is the development toolchain. Repositories keep their code
+  Node-compatible, describe the published package in `jsr.json` and the toolchain
+  in `package.json`, and CI checks formatting with `bun fmt`. A few repositories
+  still run on Deno while the
+  [migration](https://github.com/wazootech/workspace/issues/50) finishes.
+- Publishing does not depend on the toolchain, so the choice of dev runtime never
+  limits who can consume the package.
 
 A new package picks its dev runtime freely; it publishes through JSR either way.
 
