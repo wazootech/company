@@ -53,7 +53,9 @@ where that happens day to day:
   in-house [`wspace` CLI](https://github.com/wazootech/workspace-cli) (published
   as `@wazoo/workspace` on JSR). Agents run `wspace check` when a session starts
   and again before it ends.
-- The org's brain of record lives in the workspace at `repos/memory` (private),
+- The org's brain of record is [wazootech/memory](https://github.com/wazootech/memory)
+  (private), served at [memory.wazoo.dev](https://memory.wazoo.dev) behind
+  Cloudflare Access, checked out in the workspace at `repos/memory` and
   validated by the wiki CLI. Issues and pull requests stay the source of truth
   for work state; the brain holds the context those items link.
 - Skills work the way we tell users they should: product skills ship inside
