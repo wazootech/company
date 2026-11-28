@@ -28,8 +28,8 @@ are a person, a new agent, or an existing agent picking up unfamiliar work.
   and link the issue.
 - Never commit secrets, tokens, or anything secret-shaped. If a credential
   appears in a diff, rotate it first, then clean history.
-- Agents do not merge. Open the PR, run the gates, and stop. Ethan merges and
-  deploys.
+- Open the PR and run the gates. Who may merge is set by the
+  [workspace merge rule](https://github.com/wazootech/workspace/blob/main/AGENTS.md#judgment-and-escalation).
 - If CI is still running when you check, wait for it. All green means zero
   pending, not zero failing.
 
@@ -41,6 +41,10 @@ are a person, a new agent, or an existing agent picking up unfamiliar work.
 - Work tracking: the Big Picture board and the repos' own issues
 - Marketing content: Bullhorn's repo and channels
 - Agent personas and skills: each agent's own repo
+- Working rules for agents:
+  [wazootech/workspace](https://github.com/wazootech/workspace/blob/main/AGENTS.md#repository-lanes)
+- Decisions and company knowledge:
+  [wazootech/memory](https://github.com/wazootech/memory) (private)
 - This repo: company norms, the roster, and the onboarding path only
 
 If a change here would need updating more than a few times a year, it belongs in
@@ -70,49 +74,14 @@ work, and never commit under an identity that is not yours or the operating
 human's. If a change was made by an office agent, the commit message says so
 plainly.
 
-## Previews and QA
+## Previews
 
-Every pull request to a site repository gets a preview URL. The pattern is
-uniform: a `preview.` label is inserted before the project's own hostname, so
-the platform site serves previews at `<branch>.preview.wazoo.dev` and the
-console at `<preview-name>.preview.console.wazoo.dev`. Cloudflare manages the
-wildcard DNS and certificate for each host.
-
-The console is the full three-tier shape:
-
-- `console.wazoo.dev`, production
-- `console-qa.wazoo.dev`, the QA worker, backed by `api-qa.wazoo.dev` and used
-  for end-to-end tests with the QA auth setup
-- `wazoo-console-preview`, a separate worker for pull requests, built by
-  Cloudflare Workers Builds with a build token scoped to that worker only. It
-  talks to the QA API with the QA staging secrets, so a preview never touches
-  production data. Auth allowlists the preview callback domain
-  (`*.preview.console.wazoo.dev/callback`).
-
-The API side has preview workers too: `wazoo-api-preview` serves
-`preview.api.wazoo.dev` and `worlds-api-preview` serves
-`preview.data.wazoo.dev`. A console preview calls the API preview with the same
-branch alias, and falls back to `main.preview.api.wazoo.dev` when no matching
-API preview exists.
-
-Trust between these hosts is explicit, not inherited:
-
-- CORS trusts console preview origins on the QA API only, never production, and
-  the `.wazoo.dev` CORS rule requires `https` and parses origins instead of
-  string-matching them.
-- The production session cookie uses the `__Host-` prefix, which stops a sibling
-  preview host from planting a session cookie that production would honor.
-
-QA happens on the preview URL: open it, check the change as a visitor would,
-then merge. The preview worker route always carries `enabled: false`, so
-previews can never serve production traffic; production goes out only through
-the merge path.
-
-Docs are the exception: docs.wazoo.dev is hosted by Mintlify, so its preview
-URLs come from Mintlify's GitHub app on every pull request, served on Mintlify's
-own domains. The `preview.`-before-hostname pattern applies to sites we serve
-ourselves; if docs ever move to self-hosting on Workers, it gets
-`preview.docs.wazoo.dev` under the same pattern.
+Pull requests to a site repository get a preview URL. Check the change there as a
+visitor would before it merges. Each repository documents its own setup:
+[wazoo-console](https://github.com/wazootech/wazoo-console#readme),
+[wazoo-api](https://github.com/wazootech/wazoo-api#readme) and
+[worlds-api](https://github.com/wazootech/worlds-api#readme). Docs previews come
+from Mintlify's GitHub app.
 
 ## Reporting problems
 
