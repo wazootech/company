@@ -60,8 +60,9 @@ where that happens day to day:
   for work state; the brain holds the context those items link.
 - Skills work the way we tell users they should: product skills ship inside
   product repositories and install via `npx skills add`, while
-  workspace-development skills live in the workspace root under a `wazootech_`
-  prefix.
+  workspace-development skills live in the workspace root under plain names,
+  such as
+  [`balls`](https://github.com/wazootech/workspace/blob/main/.agents/skills/balls/SKILL.md).
 
 The workspace AGENTS.md carries the details: worktree isolation, cross-repo
 contract order, and the agent-file taxonomy.
